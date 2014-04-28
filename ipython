@@ -1,0 +1,31 @@
+Examples
+--------
+
+    ipython --matplotlib       # enable matplotlib integration
+    ipython --matplotlib=qt    # enable matplotlib integration with qt4 backend
+    
+    ipython --log-level=DEBUG  # set logging to DEBUG
+    ipython --profile=foo      # start with profile foo
+    
+    ipython qtconsole          # start the qtconsole GUI application
+    ipython help qtconsole     # show the help for the qtconsole subcmd
+    
+    ipython console            # start the terminal-based console application
+    ipython help console       # show the help for the console subcmd
+    
+    ipython notebook           # start the IPython notebook
+    ipython help notebook      # show the help for the notebook subcmd
+    
+    ipython profile create foo # create profile foo w/ default config files
+    ipython help profile       # show the help for the profile subcmd
+    
+    ipython locate             # print the path to the IPython directory
+    ipython locate profile foo # print the path to the directory for profile `foo`
+    
+    ipython nbconvert           # convert notebooks to/from other formats
+
+|
+--confirm-exit
+    Set to confirm when you try to exit IPython with an EOF (Control-D
+    in Unix, Control-Z/Enter in Windows). By typing 'exit' or 'quit',
+    you can force a direct exit without any confirmation.
